@@ -1,6 +1,6 @@
 class Parity < Formula
   homepage ""
-  url "https://github.com/JoelQ/parity/releases/download/v0.4.2/parity-0.4.2-osx.tar.gz"
+  url "https://github.com/JoelQ/parity/releases/download/v0.4.3/parity-0.4.3-osx.tar.gz"
   sha1 ""
 
   depends_on "heroku-toolbelt"
