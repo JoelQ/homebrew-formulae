@@ -7,10 +7,12 @@ class Parity < Formula
 
   def install
     prefix.install "lib" => "lib"
-    bin.install "bin/development"
+    bin.install "bin/development", "bin/staging", "bin/production"
   end
 
   test do
     system "#{bin}/development", "--version"
+    system "#{bin}/staging", "--version"
+    system "#{bin}/production", "--version"
   end
 end
